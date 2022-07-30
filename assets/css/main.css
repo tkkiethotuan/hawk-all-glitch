@@ -379,6 +379,9 @@ li {
     .bars {
         display: flex;
     }
+   .btn {
+        width: 100%;
+    }
 }
 
 @keyframes nav_overlay_animation {
