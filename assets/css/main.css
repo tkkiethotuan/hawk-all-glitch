@@ -369,6 +369,20 @@ li {
     max-width: 100%;
 }
 
+.wallpaper-list {
+    text-align: center;
+}
+
+.wallpaper {
+    width: 300px;
+    max-width: 100%;
+    margin: 10px;
+    transition: transform ease-in 0.2s;
+}
+.wallpaper:hover {
+    transform: scale(1.05);
+}
+
 /* ================================================================================ */
 /* Media query and animation */
 
@@ -379,7 +393,7 @@ li {
     .bars {
         display: flex;
     }
-   .btn {
+    .btn {
         width: 100%;
     }
 }
